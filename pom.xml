@@ -11,6 +11,7 @@
 
     <modules>
         <module>user-management</module>
+        <module>core</module>
     </modules>
 
     <properties>
@@ -44,6 +45,20 @@
                 <artifactId>user-management-data</artifactId>
                 <version>${revision}</version>
             </dependency>
+
+            <dependency>
+                <groupId>ir.fassih.homework</groupId>
+                <artifactId>core-data</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>ir.fassih.homework</groupId>
+                <artifactId>core-db</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>
