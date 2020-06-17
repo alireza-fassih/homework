@@ -11,5 +11,11 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>user-management-db</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>ir.fassih.homework</groupId>
+            <artifactId>user-management-data</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
