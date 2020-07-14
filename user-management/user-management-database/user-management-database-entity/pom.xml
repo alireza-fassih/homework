@@ -12,4 +12,11 @@
     <artifactId>user-management-database-entity</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>ir.fassih.homework</groupId>
+            <artifactId>core-database-entity</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>

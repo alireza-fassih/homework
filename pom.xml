@@ -54,7 +54,7 @@
 
             <dependency>
                 <groupId>ir.fassih.homework</groupId>
-                <artifactId>core-db</artifactId>
+                <artifactId>core-database-entity</artifactId>
                 <version>${revision}</version>
             </dependency>
 
