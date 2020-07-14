@@ -41,16 +41,9 @@
 
             <dependency>
                 <groupId>ir.fassih.homework</groupId>
-                <artifactId>user-management-data</artifactId>
+                <artifactId>user-management-database-entity</artifactId>
                 <version>${revision}</version>
             </dependency>
-
-            <dependency>
-                <groupId>ir.fassih.homework</groupId>
-                <artifactId>core-data</artifactId>
-                <version>${revision}</version>
-            </dependency>
-
 
             <dependency>
                 <groupId>ir.fassih.homework</groupId>
