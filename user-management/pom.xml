@@ -15,7 +15,7 @@
 
     <modules>
         <module>user-management-data</module>
-        <module>user-management-db</module>
+        <module>user-management-database</module>
     </modules>
 
 

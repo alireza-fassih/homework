@@ -28,7 +28,6 @@
     </dependencies>
 
 
-
     <dependencyManagement>
         <dependencies>
 
@@ -62,7 +61,6 @@
 
         </dependencies>
     </dependencyManagement>
-
 
 
 </project>
