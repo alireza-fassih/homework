@@ -15,11 +15,6 @@ class TenantDaoImpl implements TenantDao {
     private EntityManager entityManager;
 
 
-    public TenantDaoImpl() {
-        log.debug("initiating TenantDaoImpl ....");
-    }
-
-
     @Override
     public void save(TenantDatabaseEntity entity) {
         entityManager.persist(entity);
