@@ -1,6 +1,5 @@
 package ir.fassih.homework.core.database.tester;
 
-import ir.fassih.homework.core.database.entity.MultiTenantId;
 import ir.fassih.homework.core.database.entity.TenantDatabaseEntity;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
@@ -10,9 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.util.List;
-import java.util.UUID;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 
 @SpringBootTest
@@ -21,6 +17,7 @@ class TestTenantDatabaseEntity {
 
     @PersistenceContext
     private EntityManager entityManager;
+
 
     @Test
     public void test() {
