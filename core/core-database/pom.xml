@@ -15,6 +15,7 @@
         <module>core-database-entity</module>
         <module>core-database-dao</module>
         <module>core-database-spring-starter</module>
+        <module>core-database-tester</module>
     </modules>
 
 
