@@ -16,6 +16,11 @@
 
         <dependency>
             <groupId>ir.fassih.homework</groupId>
+            <artifactId>core-database-spring-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>ir.fassih.homework</groupId>
             <artifactId>user-management-database-dao</artifactId>
         </dependency>
 

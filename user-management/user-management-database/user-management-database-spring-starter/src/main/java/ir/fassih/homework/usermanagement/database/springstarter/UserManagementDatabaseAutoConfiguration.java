@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Slf4j
 @Configuration
-@EntityScan(basePackages = {"ir.fassih.homework.core.database.entity", "ir.fassih.homework.usermanagement.database.entity"})
+@EntityScan(basePackages = "ir.fassih.homework.usermanagement.database.entity")
 public class UserManagementDatabaseAutoConfiguration {
 
     public UserManagementDatabaseAutoConfiguration() {

@@ -66,6 +66,17 @@
                 <version>${revision}</version>
             </dependency>
 
+            <dependency>
+                <groupId>ir.fassih.homework</groupId>
+                <artifactId>core-database-dao</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>ir.fassih.homework</groupId>
+                <artifactId>core-database-spring-starter</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
 
 
