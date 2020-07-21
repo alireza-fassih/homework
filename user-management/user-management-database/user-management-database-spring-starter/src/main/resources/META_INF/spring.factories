@@ -1,2 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-ir.fassih.homework.usermanagement.database.springstarter.UserManagementDatabaseAutoConfiguration,\

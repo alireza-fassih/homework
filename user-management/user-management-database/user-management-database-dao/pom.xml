@@ -5,11 +5,18 @@
     <parent>
         <artifactId>user-management-database</artifactId>
         <groupId>ir.fassih.homework</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>user-management-database-dao</artifactId>
 
+
+    <dependencies>
+        <dependency>
+            <groupId>ir.fassih.homework</groupId>
+            <artifactId>user-management-database-entity</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

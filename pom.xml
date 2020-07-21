@@ -16,6 +16,8 @@
 
     <properties>
         <revision>1.0-SNAPSHOT</revision>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
 
@@ -39,17 +41,32 @@
                 <scope>import</scope>
             </dependency>
 
+            <!--User-Management-->
             <dependency>
                 <groupId>ir.fassih.homework</groupId>
                 <artifactId>user-management-database-entity</artifactId>
                 <version>${revision}</version>
             </dependency>
+            <dependency>
+                <groupId>ir.fassih.homework</groupId>
+                <artifactId>user-management-database-dao</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>ir.fassih.homework</groupId>
+                <artifactId>user-management-database-spring-starter</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
+
+            <!--Core-->
             <dependency>
                 <groupId>ir.fassih.homework</groupId>
                 <artifactId>core-database-entity</artifactId>
                 <version>${revision}</version>
             </dependency>
+
+
 
 
         </dependencies>
